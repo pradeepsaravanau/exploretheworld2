@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="mapstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://kit.fontawesome.com/a5406f76ce.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script defer src="mapscript.js"></script>
+    <title>explore the world</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <input type="text" class="search" placeholder="search for country" />
+      <div class="sidebar__country">
+        <!-- <div class="countries">
+          <img src="" class="flag" alt="" />
+          <p class="country__name">india</p>
+        </div>
+        <div class="countries">
+          <img src="" class="flag" alt="" />
+          <p class="country__name">india</p>
+        </div> -->
+      </div>
+      <p class="copyright">
+        &copy; Copyright by
+        <a
+          class="twitter-link"
+          target="_blank"
+          href="https://twitter.com/iam_ups8"
+          >U. Pradeepsaravana</a
+        >. <br />build by Pradeepsaravana for studying purpose
+      </p>
+    </div>
+
+    <div id="map"></div>
+    <!-- <div class="countries1">
+      <img class="country__img1" src="" />
+      <div class="country__data1">
+        <h3 class="country__name1">india</h3>
+        <h4 class="country__region1">asia</h4>
+        <p class="country__row1"><span>👫</span>12m</p>
+        <p class="country__row1"><span>🗣️</span>tamil</p>
+        <p class="country__row1"><span>💰</span>indian rupee</p>
+        <a href="climate.html" class="country__row1 climate">
+          <img
+            class="climate__icon"
+            src="http://openweathermap.org/img/wn/03n@2x.png"
+            alt="rain"
+          />
+          <p class="">rain</p>
+        </a>
+      </div>
+    </div> -->
+  </body>
+</html>

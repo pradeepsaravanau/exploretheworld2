@@ -1,0 +1,113 @@
+:root {
+  --color-heading: #ededed;
+  --color-background: #f0ebcc;
+  --color-container: #ff616d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.day {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  color: var(--color-container);
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
+  gap: 50px;
+  padding: 2.5rem;
+  margin: 3rem 2rem;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.name {
+  font-size: 30px;
+  text-align: center;
+  color: var(--color-heading);
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  /* justify-items: center; */
+  /* align-items: center; */
+}
+.weather {
+  background-color: var(--color-container);
+  box-shadow: 2px 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  color: var(--color-heading);
+}
+.weather__row {
+  align-self: center;
+  font-size: 2rem;
+  word-wrap: break-word;
+}
+.heading {
+  color: var(--color-heading);
+}
+.icon {
+  width: 10rem;
+  height: 10rem;
+}
+
+.climate {
+  height: 35.5rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: var(--color-container);
+  color: var(--color-heading);
+}
+.climate__heading {
+  font-size: 2rem;
+  align-self: center;
+  padding: 1rem 1.5rem;
+}
+.climate__row {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  padding: 1.4rem 1rem;
+}
+
+.climate__value {
+  font-weight: 600;
+}
+.wind {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  height: 17.5rem;
+  box-shadow: 2px 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: var(--color-container);
+  padding: 1rem 1.5rem;
+  color: var(--color-heading);
+}
+.wind__heading {
+  align-self: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.wind__row {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  padding: 1.4rem 1rem;
+}
+.wind__value {
+  font-weight: 600;
+}

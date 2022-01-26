@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="shortcut icon" type="image/png" href="img/logo--5.png">
+
+        <title>explore the world</title>
+
+    </head>
+    <body style="padding-top: 4rem;">
+        <div class="login__img">
+        <main>
+          <div class="row">
+
+            <div class="col-1-of-2">
+                <div class="book ">
+                    <div class="book__form " >
+                        <form action="#" class="register__form" id="signup-form ">
+
+                            <div class="u-margin-bottom-medium u-center-text">
+                                <h2 class="heading-secondary u-font-size-text">
+                                    login
+                                </h2>
+                                <br>
+                            
+                            </div>
+
+
+
+                            <div class="register__form__group">
+                                <input type="email" class="register__form__input" placeholder="Email address" id="email" required>
+                                <label for="email" class="register__form__label">Email address</label>
+                            </div>
+                            <div class="register__form__group">
+                                <input type="password" class="register__form__input" placeholder="password" id="password" required>
+                                <label for="password" class="register__form__label">password</label>
+                            </div>
+
+
+
+
+
+                            <div class="register__form__group">
+                                <button class="btn btn-green u-margin-bottom-small" onclick="login()">login &rarr;</button>
+                                <br>
+                                <br>
+                                <br>
+                                <a href="register.html" class="btn btn-register u-margin-bottom-small">register &rarr;</a>
+                               
+                            </div>
+                        </form>
+                    </div>
+                 </div>
+            </div>
+
+        </div>
+        </main>
+    </div>
+    <footer class="footer">
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Company</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Careers</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">privacy & policy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">The Website
+                    Built by <a href="#" class="footer__link">Pradeepsaravana u</a>
+                    Copyright &copy;
+                </p>
+                <div class="footer__social--media">
+
+                    <a href="https://www.instagram.com/mr_love_88/"><img src="img/icon.png" alt="facbook" class="footer_social-media"></a>
+               <a href="https://www.instagram.com/mr_love_88/"><img src="img/ista__icon.png" alt="instagram" class="footer_social-media"></a>
+               <a href="#"></a><img src="img/linkde__icon.png" alt="linkden" class="footer_social-media"></a>
+               <a href="https://twitter.com/iam_ups8?s=08"><img src="img/twitter__icon.png" alt="twitter" class="footer_social-media"></a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </footer>
+    </body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+  apiKey: "AIzaSyAMawVFmb32circwzycc_31vtDEYyDNgQs",
+  authDomain: "exploretheworld-6ba0a.firebaseapp.com",
+  projectId: "exploretheworld-6ba0a",
+  storageBucket: "exploretheworld-6ba0a.appspot.com",
+  messagingSenderId: "699243067908",
+  appId: "1:699243067908:web:21e067c0989cb2c94ed351",
+  measurementId: "G-QTY0GNK6R2"
+};
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth =firebase.auth();
+
+
+
+  </script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="login.js"></script>
+    <!-- <script src="slides__animation.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<script src="letterani.js"></script>
+
+ </html>
